@@ -25,7 +25,7 @@ SECRET_KEY = 'b7om00ta*vg^7s41=g84(tiuh()hy_6n32o)hh-ve6o@lk0go5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', 'kistova.pythonanywhere.com']
 
 
 # Application definition
